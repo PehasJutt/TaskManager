@@ -1,0 +1,55 @@
+@import '../../root.css';
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans";
+}
+.MainWrapper {
+    display: flex;
+}
+.SideSecWrapper {
+    width: 20vw;
+    height: 100vh;
+    /* border: 1px solid black */
+}
+.SidebarLight {
+    background-color: var(--white);
+}
+.SidebarDark {
+    background-color: var(--white);
+}
+.HeaderSecWrapper{
+    width: 80vw;
+    height: 12vh;
+    /* border: 1px solid black; */
+}
+.HeaderLight {
+    background-color: var(--white);
+}
+.HeaderDark {
+    background-color: var(--white);
+}
+.BodySecWrapper {
+    width: 80vw;
+    height: 88vh;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none;  /* Hides scrollbar in Firefox */
+}
+.BodySecWrapper::-webkit-scrollbar {
+    display: none;
+}
+.BodyLight {
+    background-color: var(--ash-white);
+}
+.BodyDark {
+    background-color: var(--white);
+}
+.EmptyBoardSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

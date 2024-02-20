@@ -1,0 +1,24 @@
+.HeaderWrapper {
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderSecRight{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.AddTaskBtn{
+    border-radius: var(--round-border) !important;
+    color: var(--white);
+    border: 0 !important;
+    background-color: var(--blue) !important;
+    padding: 8px 20px;
+    text-align: center;
+}
+.BoardActions{
+    height: 20px;
+    cursor: pointer;
+}
