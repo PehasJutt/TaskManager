@@ -1,0 +1,84 @@
+@import '../../root.css';
+
+.SidebarWrapper {
+    padding: 10%;
+}
+.Logo{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.TotalBoards{
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+.BoardNameWrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.75rem 0;
+    padding-left: 10%;
+    margin-left: -11.11%;
+    color: var(--grey);
+    
+}
+.BoardNameSection {
+    height: 55vh;
+    fill: var(--grey);
+    margin-left: -10%;
+    padding-left: 11.11%;
+    overflow-y: scroll; 
+    -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none;  /* Hides scrollbar in Firefox */
+
+}
+.BoardNameSection::-webkit-scrollbar {
+    display: none;
+}
+.BoardNameSection :hover {
+    border-top-right-radius: var(--round-border);
+    border-bottom-right-radius: var(--round-border);
+    background-color: var(--light-blue);
+    color: var(--white);
+    cursor: pointer;
+    fill:  white;
+}
+.BoardIcon:hover {
+    border-radius: unset;
+}
+.BoardName {
+    padding:0;
+}
+.BoardSelected {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.SideFooterWrapper{
+    bottom: 0px;
+    margin-top: 1vh;
+    /* height: 14vh; */
+    display: flex;
+    flex-direction: column;
+}
+.ThemeWrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grey);
+    padding: 8px 0;
+    border-radius: var(--box-border);
+}
+.HideSecWrapper {
+    margin-top: 1vh;
+    cursor: pointer;
+}
+.HideIcon {
+    margin-right: 1rem;
+    margin-left: 5px;
+}
+.exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75vh;
+}

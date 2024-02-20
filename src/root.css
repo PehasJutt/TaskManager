@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* Color Scheme */
+    --blue: #635FC7;
+    --light-blue: #A8A4FF;
+    --black: #000112;
+    --soft-black: #20212C;
+    --deep-grey: #2B2C37;
+    --dark-grey: #3E3F4E;
+    --grey: #828FA3;
+    --light-grey: #E4EBFA;
+    --ash-white: #F4F7FD;
+    --white: #FFFFFF;
+    --orange: #EA5555;
+    --light-orange: #FF9898;
+
+    /* Borders */
+    --round-border: 50px;
+    --box-border: 5px;
+
+    /* Button Colors */
+    --button-primary: #635FC7;
+    --button-secondary: #F4F7FD;
+    --button-danger: #EA5555;
+
+    /* Hover Colors */
+    --hover-primary: #A8A4FF;
+    --hover-secondary: #E4EBFA;
+    --hover-danger: #FF9898;
+    --hover-box: #E4EBFA;
+}
+
+/* Typography */
+.heading-xl {
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.heading-l {
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+.heading-m {
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+}
+.heading-s {
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+}
+.body-l {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+}
+.body-m {
+    font-family: "Plus Jakarta Sans";
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
