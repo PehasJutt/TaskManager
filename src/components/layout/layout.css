@@ -10,40 +10,41 @@ body {
 .SideSecWrapper {
     width: 20vw;
     height: 100vh;
-    /* border: 1px solid black */
-}
-.SidebarLight {
-    background-color: var(--white);
-}
-.SidebarDark {
-    background-color: var(--white);
 }
 .HeaderSecWrapper{
     width: 80vw;
     height: 12vh;
-    /* border: 1px solid black; */
 }
-.HeaderLight {
-    background-color: var(--white);
-}
-.HeaderDark {
-    background-color: var(--white);
-}
-.BodySecWrapper {
+.BodyWithSidebar {
+    position: absolute;
+    top: 12vh;
+    left: 20vw;
     width: 80vw;
     height: 88vh;
     overflow: scroll;
     -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
     scrollbar-width: none;  /* Hides scrollbar in Firefox */
 }
-.BodySecWrapper::-webkit-scrollbar {
+.BodyWithSidebar::-webkit-scrollbar {
+    display: none;
+}
+.BodyWithoutSidebar {
+    position: absolute;
+    top: 12vh;
+    width: 100vw;
+    height: 88vh;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none;  /* Hides scrollbar in Firefox */
+}
+.BodyWithoutSidebar::-webkit-scrollbar {
     display: none;
 }
 .BodyLight {
     background-color: var(--ash-white);
 }
 .BodyDark {
-    background-color: var(--white);
+    background-color: var(--soft-black);
 }
 .EmptyBoardSection{
     height: 100%;
@@ -52,4 +53,22 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+.EmptyBoardMsg{
+    color: var(--grey)
+}
+.ShowIcon{
+    cursor: pointer;
+    position: fixed;
+    left: 0px;
+    bottom: 2rem;
+    width: 2.5rem;
+    background-color: var(--blue);
+    border-top-right-radius: var(--round-border);
+    border-bottom-right-radius: var(--round-border);
+    padding: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }

@@ -1,11 +1,24 @@
 @import '../../root.css';
 
-.SidebarWrapper {
+.SidebarVisibleWrapper {
     padding: 10%;
+    height: 100vh;
+    border: 1px solid var(--grey);
 }
+.SidebarHiddenWrapper {
+    padding: 10%;
+    height: 12vh;
+    border: 1px solid var(--grey);
+}
+.SidebarLight {
+    background-color: var(--white);
+}
+.SidebarDark {
+    background-color: var(--dark-grey);
+  }
 .Logo{
     margin-bottom: 2rem;
-    width: 100%;
+    width: 80%;
 }
 .TotalBoards{
     color: var(--grey);
@@ -59,12 +72,21 @@
     display: flex;
     flex-direction: column;
 }
-.ThemeWrapper {
+.ThemeWrapperLight {
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
     background-color: var(--light-grey);
+    padding: 8px 0;
+    border-radius: var(--box-border);
+}
+.ThemeWrapperDark {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--soft-black);
     padding: 8px 0;
     border-radius: var(--box-border);
 }
@@ -81,4 +103,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 75vh;
+}
+.HideMsg {
+    color: var(--grey)
 }
