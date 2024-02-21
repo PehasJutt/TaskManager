@@ -1,9 +1,28 @@
-.HeaderWrapper {
-    height: 100%;
+.HeaderWrapperLight {
+    background-color: var(--white);
+    height: 12vh;
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid var(--grey);
+    border-left: none;
+}
+.HeaderWrapperDark {
+    background-color: var(--dark-grey);
+    height: 12vh;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--grey);
+    border-left: none;
+}
+.HeaderTitleLight{
+    color: var(--black)
+}
+.HeaderTitleDark{
+    color: var(--white)
 }
 .HeaderSecRight{
     display: flex;
